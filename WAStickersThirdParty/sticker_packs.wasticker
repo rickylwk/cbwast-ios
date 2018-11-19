@@ -1,0 +1,448 @@
+{
+    "ios_app_store_link" : "http://itunes.apple.com/app/id1441422104",
+    "android_play_store_link" : "",
+    "sticker_packs" : [
+    {
+        "identifier": "capsubeans_jack_1_ID",
+        "name": "Jack Series 1",
+        "publisher": "Ricky Lai",
+        "tray_image_file" : "tray_Bean.png",
+        "publisher_website" : "http://www.capsubeans.com",
+        "privacy_policy_website" : "http://shop.capsubeans.com/pages/privacy-statement",
+        "license_agreement_website" : "http://shop.capsubeans.com/pages/whatsapp-stickers-license-agreement",
+        "stickers": [
+        {
+            "image_file": "01.webp",
+            "emojis": ["😘","😍","❤️"]
+        },
+        {
+            "image_file": "02.webp",
+            "emojis": ["😱","😲","😮"]
+        },
+        {
+            "image_file": "03.webp",
+            "emojis": ["🌹","🌷","🌺"]
+        },
+        {
+            "image_file": "04.webp",
+            "emojis": ["❤️", "😘","☺️"]
+        },
+        {
+            "image_file": "05.webp",
+            "emojis": ["🍔","🍚","🤤"]
+        },
+        {
+            "image_file": "06.webp",
+            "emojis": ["😭","😿","😩"]
+        },
+        {
+            "image_file": "07.webp",
+            "emojis": ["🐷","🍿","🥜"]
+        },
+        {
+            "image_file": "08.webp",
+            "emojis": ["👋","🤗","👻"]
+        },
+        {
+            "image_file": "09.webp",
+            "emojis": ["🏃‍♂️","🏃‍♀️","👣"]
+        },
+        {
+            "image_file": "10.webp",
+            "emojis": ["💩","😰","😣"]
+        },
+        {
+            "image_file": "11.webp",
+            "emojis": ["👻","😵","💀"]
+        },
+        {
+            "image_file": "12.webp",
+            "emojis": ["👌","🙆‍♀️","👍"]
+        },
+        {
+            "image_file": "13.webp",
+            "emojis": ["😴","😪","🐽"]
+        },
+        {
+            "image_file": "14.webp",
+            "emojis": ["😡","😠","🤬"]
+        },
+        {
+            "image_file": "15.webp",
+            "emojis": ["😰","😩","🌩"]
+        },
+        {
+            "image_file": "16.webp",
+            "emojis": ["🙇🏻‍♀️","🙇🏻","😥"]
+        },
+        {
+            "image_file": "17.webp",
+            "emojis": ["👌","👍","✅"]
+        },
+        {
+            "image_file": "18.webp",
+            "emojis": ["😑", "😐","😓"]
+        },
+        {
+            "image_file": "19.webp",
+            "emojis": ["🤒","😷","🤕"]
+        },
+        {
+            "image_file": "20.webp",
+            "emojis": ["🤬","😤","😠"]
+        },
+        {
+            "image_file": "21.webp",
+            "emojis": ["🔥","😥","🤒"]
+        },
+        {
+            "image_file": "22.webp",
+            "emojis": ["😨","❄️","⛄️"]
+        },
+        {
+            "image_file": "23.webp",
+            "emojis": ["💩","😰","😣"]
+        },
+        {
+            "image_file": "24.webp",
+            "emojis": ["😖","😔","😞"]
+        },
+        {
+            "image_file": "25.webp",
+            "emojis": ["😏","😌","😉"]
+        }]
+    },
+
+    {
+        "identifier": "capsubeans_lily_1_ID",
+        "name": "Lily Series 1",
+        "publisher": "Ricky Lai",
+        "tray_image_file" : "tray_Lily.png",
+        "publisher_website" : "http://www.capsubeans.com",
+        "privacy_policy_website" : "http://shop.capsubeans.com/pages/privacy-statement",
+        "license_agreement_website" : "http://shop.capsubeans.com/pages/whatsapp-stickers-license-agreement",
+        "stickers": [
+        {
+            "image_file": "lily_1_01.webp",
+            "emojis": ["☺️","😚","🤗"]
+        },
+        {
+            "image_file": "lily_1_02.webp",
+            "emojis": ["😈","👻","🤪"]
+        },
+        {
+            "image_file": "lily_1_03.webp",
+            "emojis": ["💔","😢","😭"]
+        },
+        {
+            "image_file": "lily_1_04.webp",
+            "emojis": ["😇","🙇‍♀️","🙏"]
+        },
+        {
+            "image_file": "lily_1_05.webp",
+            "emojis": ["🤢","😨","😣"]
+        },
+        {
+            "image_file": "lily_1_06.webp",
+            "emojis": ["😍","❤️","😘"]
+        },
+        {
+            "image_file": "lily_1_07.webp",
+            "emojis": ["😃","😆","😊"]
+        },
+        {
+            "image_file": "lily_1_08.webp",
+            "emojis": ["💩","👶","😡"]
+        },
+        {
+            "image_file": "lily_1_09.webp",
+            "emojis": ["😐","😕","😦"]
+        },
+        {
+            "image_file": "lily_1_10.webp",
+            "emojis": ["🤬","😡","😠"]
+        },
+        {
+            "image_file": "lily_1_11.webp",
+            "emojis": ["😊","🤗","🌷"]
+        },
+        {
+            "image_file": "lily_1_12.webp",
+            "emojis": ["☺️","😴","😚"]
+        },
+        {
+            "image_file": "lily_1_13.webp",
+            "emojis": ["😘","❤️","💘"]
+        },
+        {
+            "image_file": "lily_1_14.webp",
+            "emojis": ["⭐️","🌟","💫"]
+        },
+        {
+            "image_file": "lily_1_15.webp",
+            "emojis": ["☺️","❤️","💕"]
+        },
+        {
+            "image_file": "lily_1_16.webp",
+            "emojis": ["😘","😚","💋"]
+        },
+        {
+            "image_file": "lily_1_17.webp",
+            "emojis": ["☺️","❤️","💑"]
+        },
+        {
+            "image_file": "lily_1_18.webp",
+            "emojis": ["💑","☺️","🤗"]
+        },
+        {
+            "image_file": "lily_1_19.webp",
+            "emojis": ["💑","❤️","🤗"]
+        },
+        {
+            "image_file": "lily_1_20.webp",
+            "emojis": ["💫","😌","🤔"]
+        },
+        {
+            "image_file": "lily_1_21.webp",
+            "emojis": ["🎂","🍰","🍮"]
+        },
+        {
+            "image_file": "lily_1_22.webp",
+            "emojis": ["🍳","👨‍🍳","👩‍🍳"]
+        },
+        {
+            "image_file": "lily_1_23.webp",
+            "emojis": ["👻","😱","😨"]
+        },
+        {
+            "image_file": "lily_1_24.webp",
+            "emojis": ["😍","🤩","😌"]
+        },
+        {
+            "image_file": "lily_1_25.webp",
+            "emojis": ["☺️","🤡","😚"]
+        }]
+    },
+
+    {
+        "identifier": "capsubeans_max_1_ID",
+        "name": "Max Series 1",
+        "publisher": "Ricky Lai",
+        "tray_image_file" : "tray_Max.png",
+        "publisher_website" : "http://www.capsubeans.com",
+        "privacy_policy_website" : "http://shop.capsubeans.com/pages/privacy-statement",
+        "license_agreement_website" : "http://shop.capsubeans.com/pages/whatsapp-stickers-license-agreement",
+        "stickers": [
+        {
+            "image_file": "max_1_01.webp",
+            "emojis": ["😊","🤗","🌷"]
+        },
+        {
+            "image_file": "max_1_02.webp",
+            "emojis": ["🤔","🧐","🤨"]
+        },
+        {
+            "image_file": "max_1_03.webp",
+            "emojis": ["💩","😖","☺️"]
+        },
+        {
+            "image_file": "max_1_04.webp",
+            "emojis": ["😀","🏃‍♂️","😎"]
+        },
+        {
+            "image_file": "max_1_05.webp",
+            "emojis": ["🤩","😍","😚"]
+        },
+        {
+            "image_file": "max_1_06.webp",
+            "emojis": ["😵","😞","😪"]
+        },
+        {
+            "image_file": "max_1_07.webp",
+            "emojis": ["😥","😩","😣"]
+        },
+        {
+            "image_file": "max_1_08.webp",
+            "emojis": ["☺️","🙏","🙇‍♂️"]
+        },
+        {
+            "image_file": "max_1_09.webp",
+            "emojis": ["😦","😨","😱"]
+        },
+        {
+            "image_file": "max_1_10.webp",
+            "emojis": ["😴","😌","🤤"]
+        },
+        {
+            "image_file": "max_1_11.webp",
+            "emojis": ["😱","😭","🤢"]
+        },
+        {
+            "image_file": "max_1_12.webp",
+            "emojis": ["🤑","💸","💰"]
+        },
+        {
+            "image_file": "max_1_13.webp",
+            "emojis": ["😨","👽","😩"]
+        },
+        {
+            "image_file": "max_1_14.webp",
+            "emojis": ["🙇‍♂️","😎","😉"]
+        },
+        {
+            "image_file": "max_1_15.webp",
+            "emojis": ["😵","😩","😴"]
+        },
+        {
+            "image_file": "max_1_16.webp",
+            "emojis": ["👋","👋🏻","👋🏾"]
+        },
+        {
+            "image_file": "max_1_17.webp",
+            "emojis": ["🧟‍♂️","🧟‍♀️","🤢"]
+        },
+        {
+            "image_file": "max_1_18.webp",
+            "emojis": ["🙂","😃","😀"]
+        },
+        {
+            "image_file": "max_1_19.webp",
+            "emojis": ["😆","😄","😝"]
+        },
+        {
+            "image_file": "max_1_20.webp",
+            "emojis": ["🤕","🤒","😢"]
+        },
+        {
+            "image_file": "max_1_21.webp",
+            "emojis": ["😵","😫","😔"]
+        },
+        {
+            "image_file": "max_1_22.webp",
+            "emojis": ["🍺","🍻","🍷"]
+        },
+        {
+            "image_file": "max_1_23.webp",
+            "emojis": ["⚡️","😱","😲"]
+        },
+        {
+            "image_file": "max_1_24.webp",
+            "emojis": ["😡","🤬","🤯"]
+        },
+        {
+            "image_file": "max_1_25.webp",
+            "emojis": ["🤡","😁","🤓"]
+        }]
+    },
+
+    {
+        "identifier": "capsubeans_charlie_1_ID",
+        "name": "Charlie Series 1",
+        "publisher": "Ricky Lai",
+        "tray_image_file" : "tray_Charlie.png",
+        "publisher_website" : "http://www.capsubeans.com",
+        "privacy_policy_website" : "http://shop.capsubeans.com/pages/privacy-statement",
+        "license_agreement_website" : "http://shop.capsubeans.com/pages/whatsapp-stickers-license-agreement",
+        "stickers": [
+        {
+        "image_file": "charlie_01.webp",
+        "emojis": ["😊","🤗","🐶"]
+        },
+        {
+        "image_file": "charlie_02.webp",
+        "emojis": ["☺️","❤️","💕"]
+        },
+        {
+        "image_file": "charlie_03.webp",
+        "emojis": ["😎","😌","🤩"]
+        },
+        {
+        "image_file": "charlie_04.webp",
+        "emojis": ["👏","👍","💪"]
+        },
+        {
+        "image_file": "charlie_05.webp",
+        "emojis": ["😴","😌","😵"]
+        },
+        {
+        "image_file": "charlie_06.webp",
+        "emojis": ["😓","😩","😱"]
+        },
+        {
+        "image_file": "charlie_07.webp",
+        "emojis": ["😭","😢","🤗"]
+        },
+        {
+        "image_file": "charlie_08.webp",
+        "emojis": ["😰","😔","😞"]
+        },
+        {
+        "image_file": "charlie_09.webp",
+        "emojis": ["😡","🤬","💩"]
+        },
+        {
+        "image_file": "charlie_10.webp",
+        "emojis": ["👋","😀","☺️ "]
+        },
+        {
+        "image_file": "charlie_11.webp",
+        "emojis": ["😳","😭","😌"]
+        },
+        {
+        "image_file": "charlie_12.webp",
+        "emojis": ["😦","😧","😨"]
+        },
+        {
+        "image_file": "charlie_13.webp",
+        "emojis": ["🤒","😷 ","🤧"]
+        },
+        {
+        "image_file": "charlie_14.webp",
+        "emojis": ["🍔","🍟","🥤"]
+        },
+        {
+        "image_file": "charlie_15.webp",
+        "emojis": ["🍰","🎂","🥂"]
+        },
+        {
+        "image_file": "charlie_16.webp",
+        "emojis": ["😈","👿","👹"]
+        },
+        {
+        "image_file": "charlie_17.webp",
+        "emojis": ["🤑","💸","💰"]
+        },
+        {
+        "image_file": "charlie_18.webp",
+        "emojis": ["☺️","❤️","💕"]
+        },
+        {
+        "image_file": "charlie_19.webp",
+        "emojis": ["😔","☹️","😞"]
+        },
+        {
+        "image_file": "charlie_20.webp",
+        "emojis": ["🍈","🥕","🍎"]
+        },
+        {
+        "image_file": "charlie_21.webp",
+        "emojis": ["👌","🙆‍♀️","🆗"]
+        },
+        {
+        "image_file": "charlie_22.webp",
+        "emojis": ["😖","😩","😱"]
+        },
+        {
+        "image_file": "charlie_23.webp",
+        "emojis": ["💔","😞","😔"]
+        },
+        {
+        "image_file": "charlie_24.webp",
+        "emojis": ["😐","😶","💩"]
+        },
+        {
+        "image_file": "charlie_25.webp",
+        "emojis": ["😀","😊","😆"]
+        }]
+    }]
+}
