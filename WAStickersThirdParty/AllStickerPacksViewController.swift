@@ -17,6 +17,9 @@ class AllStickerPacksViewController: UIViewController, UITableViewDataSource, UI
     private var selectedIndex: IndexPath?
 
     override func viewDidLoad() {
+        
+        let message = "Hello Git!"
+        
         super.viewDidLoad()
         if #available(iOS 11.0, *) {
             navigationItem.largeTitleDisplayMode = .automatic
@@ -25,6 +28,7 @@ class AllStickerPacksViewController: UIViewController, UITableViewDataSource, UI
         navigationController?.navigationBar.alpha = 0.0;
         stickerPacksTableView.register(UINib(nibName: "StickerPackTableViewCell", bundle: nil), forCellReuseIdentifier: "StickerPackCell")
         stickerPacksTableView.tableFooterView = UIView(frame: .zero)
+        print(message)
     }
 
     override func viewWillAppear(_ animated: Bool) {
