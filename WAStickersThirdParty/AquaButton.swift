@@ -11,7 +11,10 @@ import UIKit
 class RoundedButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
+        commonInit()
+    }
 
+    func commonInit() {
         adjustsImageWhenHighlighted = false
 
         layer.masksToBounds = true
@@ -21,7 +24,8 @@ class RoundedButton: UIButton {
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
+        commonInit()
     }
 }
 
@@ -89,5 +93,39 @@ class GrayRoundedButton: RoundedButton {
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+class BlueButton: RoundedButton {
+
+    override var isHighlighted: Bool {
+        get {
+            return super.isHighlighted
+        }
+
+        set (newHighlighted) {
+            super.isHighlighted = newHighlighted
+
+            imageView?.tintColor = newHighlighted ? UIColor.white.withAlphaComponent(0.5) : .white
+        }
+    }
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+
+    override func commonInit() {
+        super.commonInit()
+        adjustsImageWhenHighlighted = false
+        backgroundColor = UIColor(red: 0, green: 122/255, blue: 255/255, alpha: 1.0)
+        imageView!.tintColor = .white
+        setTitleColor(UIColor.white, for: .normal)
+        imageEdgeInsets.left = -25
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonInit()
     }
 }
