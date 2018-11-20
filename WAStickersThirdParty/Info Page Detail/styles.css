@@ -15,7 +15,7 @@
 /* Specific to Info Page Detail */
 .sk-ab.sk-Info-Page-Detail {
 	background-color: #FFFFFF;
-	width: 375px;
+    width: 375px;
 	height: 1208px;
 }
 
@@ -33,7 +33,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Untitled-1-01 {
 		background-image: url("images/Untitled-1-01@2x.png");
-		background-size: 227px 227px;
+		background-size: 200px 222px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -42,7 +42,7 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Untitled-1-01 {
 		background-image: url("images/Untitled-1-01@3x.png");
-		background-size: 227px 227px;
+		background-size: 200px 222px;
 	}
 }
 .sk-asset.sk-Capsubeans-are-the-m {
@@ -50,7 +50,8 @@ only screen and (min-device-pixel-ratio: 3) {
 	height: 63px;
 	left: 26px;
 	top: 200px;
-	background-image: url("images/Capsubeans are the m.png");
+    font-family: "Helvetica";
+    font-size: 12pt;
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -58,8 +59,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Capsubeans-are-the-m {
-		background-image: url("images/Capsubeans are the m@2x.png");
-		background-size: 304px 63px;
+		font-size: 10pt;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -67,8 +67,7 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Capsubeans-are-the-m {
-		background-image: url("images/Capsubeans are the m@3x.png");
-		background-size: 304px 63px;
+		
 	}
 }
 .sk-asset.sk-They-release-a-pink {
@@ -76,7 +75,8 @@ only screen and (min-device-pixel-ratio: 3) {
 	height: 42px;
 	left: 26px;
 	top: 362px;
-	background-image: url("images/They release a pink.png");
+    font-family: "Helvetica";
+    font-size: 10pt;
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -84,8 +84,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-They-release-a-pink {
-		background-image: url("images/They release a pink@2x.png");
-		background-size: 322px 42px;
+        font-size: 10pt;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -93,8 +92,7 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-They-release-a-pink {
-		background-image: url("images/They release a pink@3x.png");
-		background-size: 322px 42px;
+        font-size: 10pt;
 	}
 }
 .sk-asset.sk-When-in-doubt-Chill {
@@ -102,7 +100,11 @@ only screen and (min-device-pixel-ratio: 3) {
 	height: 60px;
 	left: 24px;
 	top: 289px;
-	background-image: url("images/When in doubt, Chill.png");
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: 28pt;
+    text-align: center;
+    margin: auto;
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -110,8 +112,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-When-in-doubt-Chill {
-		background-image: url("images/When in doubt, Chill@2x.png");
-		background-size: 228px 60px;
+		
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -119,8 +120,7 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-When-in-doubt-Chill {
-		background-image: url("images/When in doubt, Chill@3x.png");
-		background-size: 228px 60px;
+		
 	}
 }
 .sk-asset.sk-Projects {
@@ -128,7 +128,9 @@ only screen and (min-device-pixel-ratio: 3) {
 	height: 30px;
 	left: 26px;
 	top: 663px;
-	background-image: url("images/Projects.png");
+    font-family: "Helvetica";
+    font-weight:700;
+    font-size: 30pt;
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -136,8 +138,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Projects {
-		background-image: url("images/Projects@2x.png");
-		background-size: 124px 30px;
+		font-size: 28pt;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -145,8 +146,7 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Projects {
-		background-image: url("images/Projects@3x.png");
-		background-size: 124px 30px;
+		font-size: 15pt;
 	}
 }
 .sk-asset.sk-Logo-01 {
@@ -163,7 +163,8 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Logo-01 {
 		background-image: url("images/Logo-01@2x.png");
-		background-size: 250px 65px;
+		background-size: 206px 43px;
+        background-position: center;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -172,7 +173,8 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Logo-01 {
 		background-image: url("images/Logo-01@3x.png");
-		background-size: 250px 65px;
+		background-size: 206px 43px;
+        background-position: center;
 	}
 }
 .sk-asset.sk-ProfilePic_all-01 {

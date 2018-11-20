@@ -24,7 +24,7 @@
 	height: 324px;
 	left: 0px;
 	top: 454px;
-	background-image: url("images/lily_1.png");
+    background-image: url("images/lily_1.png");
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -32,8 +32,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-lily_1 {
-		background-image: url("images/lily_1@2x.png");
-		background-size: 324px 324px;
+        background-image: url("images/lily_1@2x.png");
+        background-size: 166px 361px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -41,8 +41,8 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-lily_1 {
-		background-image: url("images/lily_1@3x.png");
-		background-size: 324px 324px;
+        background-image: url("images/lily_1@3x.png");
+        background-size: 166px 361px;
 	}
 }
 .sk-asset.sk-Jack_1 {
@@ -50,7 +50,7 @@ only screen and (min-device-pixel-ratio: 3) {
 	height: 361px;
 	left: 79px;
 	top: 85px;
-	background-image: url("images/Jack_1.png");
+    background-image: url("images/Jack_1.png");
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -58,8 +58,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Jack_1 {
-		background-image: url("images/Jack_1@2x.png");
-		background-size: 166px 361px;
+        background-image: url("images/Jack_1@2x.png");
+        background-size: 166px 361px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -67,8 +67,8 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Jack_1 {
-		background-image: url("images/Jack_1@3x.png");
-		background-size: 166px 361px;
+        background-image: url("images/Jack_1@3x.png");
+        background-size: 166px 361px;
 	}
 }
 .sk-asset.sk-Untitled-1 {
@@ -102,7 +102,7 @@ only screen and (min-device-pixel-ratio: 3) {
 	height: 21px;
 	left: 93px;
 	top: 38px;
-	background-image: url("images/The wallpapers are s.png");
+/*    background-image: url("images/The wallpapers are s.png");*/
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -110,8 +110,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-The-wallpapers-are-s {
-		background-image: url("images/The wallpapers are s@2x.png");
-		background-size: 304px 21px;
+/*        background-image: url("images/The wallpapers are s@2x.png");*/
+/*        background-size: 304px 21px;*/
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -119,8 +119,8 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-The-wallpapers-are-s {
-		background-image: url("images/The wallpapers are s@3x.png");
-		background-size: 304px 21px;
+/*        background-image: url("images/The wallpapers are s@3x.png");*/
+/*        background-size: 304px 21px;*/
 	}
 }
 .sk-asset.sk-Capsubeans-Wallpaper {
@@ -154,7 +154,7 @@ only screen and (min-device-pixel-ratio: 3) {
 	height: 361px;
 	left: 253px;
 	top: 85px;
-	background-image: url("images/charlie-1.png");
+    background-image: url("images/charlie-1.png");
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -162,8 +162,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-charlie-1 {
-		background-image: url("images/charlie-1@2x.png");
-		background-size: 166px 361px;
+        background-image: url("images/charlie-1@2x.png");
+        background-size: 166px 361px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -171,8 +171,8 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-charlie-1 {
-		background-image: url("images/charlie-1@3x.png");
-		background-size: 166px 361px;
+        background-image: url("images/charlie-1@3x.png");
+        background-size: 166px 361px;
 	}
 }
 .sk-asset.sk-Overrides-Cell-Add-Detail {
