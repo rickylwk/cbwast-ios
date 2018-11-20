@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E6359A4203E148200805DEB /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6359A3203E148200805DEB /* StickerCell.swift */; };
+		1A7C48F321A4223B00206561 /* tray_Max.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C48F121A4223B00206561 /* tray_Max.png */; };
+		1A7C48F421A4223B00206561 /* tray_Lily.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C48F221A4223B00206561 /* tray_Lily.png */; };
 		8A0A6DCD1FE9F1CE00110AF2 /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */; };
 		8A18E2EE1FB3B47D0082201D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E51FB3B47B0082201D /* YYImage.m */; };
 		8A18E2EF1FB3B47D0082201D /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E81FB3B47C0082201D /* YYAnimatedImageView.m */; };
@@ -88,8 +90,6 @@
 		CA5ED185219C008F00529BA3 /* lily_1_07.webp in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED16B219C008F00529BA3 /* lily_1_07.webp */; };
 		CA5ED186219C008F00529BA3 /* lily_1_19.webp in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED16C219C008F00529BA3 /* lily_1_19.webp */; };
 		CA5ED187219C008F00529BA3 /* lily_1_06.webp in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED16D219C008F00529BA3 /* lily_1_06.webp */; };
-		CA5ED1A2219C02AD00529BA3 /* tray_Max.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED1A1219C02AD00529BA3 /* tray_Max.png */; };
-		CA5ED1A4219C02C400529BA3 /* tray_Lily.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED1A3219C02C400529BA3 /* tray_Lily.png */; };
 		CA5ED306219C23E300529BA3 /* LaunchImage-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED305219C23E300529BA3 /* LaunchImage-01.png */; };
 		CA5ED308219C2FCE00529BA3 /* Launch-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED307219C2FCE00529BA3 /* Launch-01.png */; };
 		CA5ED30A219C319700529BA3 /* LaunchHiRes-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5ED309219C319700529BA3 /* LaunchHiRes-01.png */; };
@@ -163,6 +163,8 @@
 
 /* Begin PBXFileReference section */
 		0E6359A3203E148200805DEB /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		1A7C48F121A4223B00206561 /* tray_Max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tray_Max.png; sourceTree = "<group>"; };
+		1A7C48F221A4223B00206561 /* tray_Lily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tray_Lily.png; sourceTree = "<group>"; };
 		8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Additions.swift"; sourceTree = "<group>"; };
 		8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAStickersThirdParty-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A18E2E41FB3B47B0082201D /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
@@ -284,8 +286,6 @@
 		CA5ED19E219C00A000529BA3 /* 23.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 23.webp; sourceTree = "<group>"; };
 		CA5ED19F219C00A100529BA3 /* 21.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 21.webp; sourceTree = "<group>"; };
 		CA5ED1A0219C00A100529BA3 /* 18.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 18.webp; sourceTree = "<group>"; };
-		CA5ED1A1219C02AD00529BA3 /* tray_Max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tray_Max.png; path = "../../../../Dropbox/0. Rikki Mobile/Licensing/Whatsapp Stickers/Series 3 - Max/WebP/tray_Max.png"; sourceTree = "<group>"; };
-		CA5ED1A3219C02C400529BA3 /* tray_Lily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tray_Lily.png; path = "../../../../Dropbox/0. Rikki Mobile/Licensing/Whatsapp Stickers/Series 2 - Lily/WebP/tray_Lily.png"; sourceTree = "<group>"; };
 		CA5ED305219C23E300529BA3 /* LaunchImage-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-01.png"; sourceTree = "<group>"; };
 		CA5ED307219C2FCE00529BA3 /* Launch-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch-01.png"; sourceTree = "<group>"; };
 		CA5ED309219C319700529BA3 /* LaunchHiRes-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchHiRes-01.png"; sourceTree = "<group>"; };
@@ -471,7 +471,8 @@
 				CA5ED160219C008E00529BA3 /* lily_1_23.webp */,
 				CA5ED15A219C008D00529BA3 /* lily_1_24.webp */,
 				CA5ED167219C008F00529BA3 /* lily_1_25.webp */,
-				CA5ED1A3219C02C400529BA3 /* tray_Lily.png */,
+				1A7C48F221A4223B00206561 /* tray_Lily.png */,
+				1A7C48F121A4223B00206561 /* tray_Max.png */,
 				CA5ED324219DA9AA00529BA3 /* tray_Charlie.png */,
 				CA5ED136219C007500529BA3 /* max_1_01.webp */,
 				CA5ED124219C007400529BA3 /* max_1_02.webp */,
@@ -498,7 +499,6 @@
 				CA5ED138219C007600529BA3 /* max_1_23.webp */,
 				CA5ED131219C007500529BA3 /* max_1_24.webp */,
 				CA5ED134219C007500529BA3 /* max_1_25.webp */,
-				CA5ED1A1219C02AD00529BA3 /* tray_Max.png */,
 				CAAA86E92191CFCB00DD08FD /* tray_Bean.png */,
 				CA5ED198219C009F00529BA3 /* 01.webp */,
 				CA5ED190219C009E00529BA3 /* 02.webp */,
@@ -666,6 +666,7 @@
 				CAAA86EA2191CFCB00DD08FD /* tray_Bean.png in Resources */,
 				CAAA86D52191BC8000DD08FD /* 08.webp in Resources */,
 				CA5ED147219C007600529BA3 /* max_1_14.webp in Resources */,
+				1A7C48F321A4223B00206561 /* tray_Max.png in Resources */,
 				CA5ED183219C008F00529BA3 /* lily_1_09.webp in Resources */,
 				CAAA86E02191BC8000DD08FD /* 13.webp in Resources */,
 				CA5ED153219C007600529BA3 /* max_1_04.webp in Resources */,
@@ -692,6 +693,7 @@
 				CA5ED306219C23E300529BA3 /* LaunchImage-01.png in Resources */,
 				CA5ED14D219C007600529BA3 /* max_1_06.webp in Resources */,
 				CA5ED184219C008F00529BA3 /* lily_1_05.webp in Resources */,
+				1A7C48F421A4223B00206561 /* tray_Lily.png in Resources */,
 				CAAA86D92191BC8000DD08FD /* 17.webp in Resources */,
 				CA5ED170219C008F00529BA3 /* lily_1_08.webp in Resources */,
 				CA5ED14C219C007600529BA3 /* max_1_16.webp in Resources */,
@@ -709,7 +711,6 @@
 				CA5ED182219C008F00529BA3 /* lily_1_11.webp in Resources */,
 				CAAA86CF2191BC8000DD08FD /* 18.webp in Resources */,
 				CA5ED35C219DB18E00529BA3 /* charlie_16.webp in Resources */,
-				CA5ED1A4219C02C400529BA3 /* tray_Lily.png in Resources */,
 				CA5ED361219DB18E00529BA3 /* charlie_12.webp in Resources */,
 				CA5ED360219DB18E00529BA3 /* charlie_05.webp in Resources */,
 				CAAA86DE2191BC8000DD08FD /* 15.webp in Resources */,
@@ -744,7 +745,6 @@
 				CAAA86CE2191BC8000DD08FD /* 02.webp in Resources */,
 				CAAA86D42191BC8000DD08FD /* 24.webp in Resources */,
 				CAAA86E82191C6C000DD08FD /* Default-568h@2x.png in Resources */,
-				CA5ED1A2219C02AD00529BA3 /* tray_Max.png in Resources */,
 				8A27F1311FD9E987001B2BBD /* LinkTableViewCell.xib in Resources */,
 				CA5ED14F219C007600529BA3 /* max_1_08.webp in Resources */,
 				CA5ED364219DB18E00529BA3 /* charlie_15.webp in Resources */,
