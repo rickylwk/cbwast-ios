@@ -39,11 +39,17 @@
                                             <constraint firstAttribute="height" constant="50" id="xLI-bf-WXL"/>
                                         </constraints>
                                         <state key="normal" title="Learn More"/>
+                                        <connections>
+                                            <segue destination="86u-J4-AXB" kind="show" id="NTu-7G-4lT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJQ-d8-mUz" customClass="BlueButton" customModule="WAStickersThirdParty" customModuleProvider="target">
                                         <rect key="frame" x="194" y="8" width="150" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Get Wallpaper"/>
+                                        <connections>
+                                            <segue destination="4UW-ka-mGB" kind="show" id="Cac-dv-48q"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFc-AE-YCs" customClass="BlueButton" customModule="WAStickersThirdParty" customModuleProvider="target">
                                         <rect key="frame" x="29" y="73" width="317" height="50"/>
@@ -90,6 +96,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uC1-1q-rug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1212" y="915.29235382308855"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="7s1-Mh-rtg">
+            <objects>
+                <viewController title="Info" id="86u-J4-AXB" customClass="WebViewController" customModule="WAStickersThirdParty" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AwF-ta-upf"/>
+                        <viewControllerLayoutGuide type="bottom" id="uWs-G2-yKv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nrz-qb-DL3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ns-Qv-4kX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="resourcePath" value="Info Page Detail/index.html"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="webView" destination="9Ns-Qv-4kX" id="zFF-bN-ycA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMA-kD-tvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="1745.577211394303"/>
         </scene>
         <!--Sticker Pack View Controller-->
         <scene sceneID="edg-Pz-Hza">
@@ -211,6 +253,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9T-AN-dLq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="465" y="915"/>
+        </scene>
+        <!--Wallpapers-->
+        <scene sceneID="3dQ-Bd-eUa">
+            <objects>
+                <viewController title="Wallpapers" id="4UW-ka-mGB" customClass="WebViewController" customModule="WAStickersThirdParty" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y7V-Gu-tPD"/>
+                        <viewControllerLayoutGuide type="bottom" id="dxp-vD-UxL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Els-3M-Qpp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ylc-Nc-yDV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="resourcePath" value="WallpaperPage Detail/index.html"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="webView" destination="ylc-Nc-yDV" id="jb2-aN-JkF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TNu-yr-6IP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1887" y="1746"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

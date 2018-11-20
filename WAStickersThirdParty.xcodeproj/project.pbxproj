@@ -10,6 +10,9 @@
 		0E6359A4203E148200805DEB /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6359A3203E148200805DEB /* StickerCell.swift */; };
 		1A7C48F321A4223B00206561 /* tray_Max.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C48F121A4223B00206561 /* tray_Max.png */; };
 		1A7C48F421A4223B00206561 /* tray_Lily.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C48F221A4223B00206561 /* tray_Lily.png */; };
+		1A7C48F821A423E500206561 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C48F721A423E500206561 /* WebViewController.swift */; };
+		1AF956AC21A4289B005B5BE4 /* Info Page Detail in Resources */ = {isa = PBXBuildFile; fileRef = 1AF956AB21A4289A005B5BE4 /* Info Page Detail */; };
+		1AF956AE21A42A64005B5BE4 /* WallpaperPage Detail in Resources */ = {isa = PBXBuildFile; fileRef = 1AF956AD21A42A64005B5BE4 /* WallpaperPage Detail */; };
 		8A0A6DCD1FE9F1CE00110AF2 /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */; };
 		8A18E2EE1FB3B47D0082201D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E51FB3B47B0082201D /* YYImage.m */; };
 		8A18E2EF1FB3B47D0082201D /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E81FB3B47C0082201D /* YYAnimatedImageView.m */; };
@@ -165,6 +168,9 @@
 		0E6359A3203E148200805DEB /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
 		1A7C48F121A4223B00206561 /* tray_Max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tray_Max.png; sourceTree = "<group>"; };
 		1A7C48F221A4223B00206561 /* tray_Lily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tray_Lily.png; sourceTree = "<group>"; };
+		1A7C48F721A423E500206561 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		1AF956AB21A4289A005B5BE4 /* Info Page Detail */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Info Page Detail"; sourceTree = "<group>"; };
+		1AF956AD21A42A64005B5BE4 /* WallpaperPage Detail */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "WallpaperPage Detail"; sourceTree = "<group>"; };
 		8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Additions.swift"; sourceTree = "<group>"; };
 		8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAStickersThirdParty-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A18E2E41FB3B47B0082201D /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
@@ -414,6 +420,9 @@
 				8A22EE0C1F9A9F40003A7F21 /* LaunchScreen.storyboard */,
 				8A22EE0F1F9A9F40003A7F21 /* Info.plist */,
 				8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */,
+				1A7C48F721A423E500206561 /* WebViewController.swift */,
+				1AF956AD21A42A64005B5BE4 /* WallpaperPage Detail */,
+				1AF956AB21A4289A005B5BE4 /* Info Page Detail */,
 			);
 			path = WAStickersThirdParty;
 			sourceTree = "<group>";
@@ -675,7 +684,9 @@
 				8A27F12F1FD9E733001B2BBD /* SecondaryTextTableViewCell.xib in Resources */,
 				CA5ED13D219C007600529BA3 /* max_1_15.webp in Resources */,
 				CA5ED145219C007600529BA3 /* max_1_11.webp in Resources */,
+				1AF956AE21A42A64005B5BE4 /* WallpaperPage Detail in Resources */,
 				CAAA86E22191BC8000DD08FD /* 20.webp in Resources */,
+				1AF956AC21A4289B005B5BE4 /* Info Page Detail in Resources */,
 				CA5ED151219C007600529BA3 /* max_1_18.webp in Resources */,
 				CA5ED17A219C008F00529BA3 /* lily_1_23.webp in Resources */,
 				CA5ED13E219C007600529BA3 /* max_1_02.webp in Resources */,
@@ -788,6 +799,7 @@
 				8A18E2F01FB3B47D0082201D /* YYFrameImage.m in Sources */,
 				8A27F12B1FD9E025001B2BBD /* StickerPackInfoViewController.swift in Sources */,
 				8A18E33F1FBA7DC50082201D /* WebPManager.swift in Sources */,
+				1A7C48F821A423E500206561 /* WebViewController.swift in Sources */,
 				8ADA60761FD71F69006C9BBA /* AllStickerPacksViewController.swift in Sources */,
 				8ACB6A981FE9CB7700A564BB /* Limits.swift in Sources */,
 				8A40BE651FB122B3003AD704 /* StickerPack.swift in Sources */,
