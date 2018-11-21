@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CD6-Ts-Zg8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="M67-ew-auO" id="38Z-vo-dea"/>
@@ -29,7 +29,7 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dM1-xj-Mgs">
-                                <rect key="frame" x="0.0" y="524" width="375" height="143"/>
+                                <rect key="frame" x="0.0" y="599" width="375" height="68"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5b4-4W-EVh" customClass="BlueButton" customModule="WAStickersThirdParty" customModuleProvider="target">
                                         <rect key="frame" x="29" y="8" width="150" height="50"/>
@@ -51,27 +51,16 @@
                                             <segue destination="4UW-ka-mGB" kind="show" id="Cac-dv-48q"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFc-AE-YCs" customClass="BlueButton" customModule="WAStickersThirdParty" customModuleProvider="target">
-                                        <rect key="frame" x="29" y="73" width="317" height="50"/>
-                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Uqw-bC-YjW"/>
-                                        </constraints>
-                                        <state key="normal" title="Online shop"/>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="HFc-AE-YCs" secondAttribute="trailing" constant="29" id="Cmu-xA-DMI"/>
                                     <constraint firstItem="5b4-4W-EVh" firstAttribute="leading" secondItem="dM1-xj-Mgs" secondAttribute="leading" constant="29" id="Gj4-cj-lLC"/>
                                     <constraint firstItem="5b4-4W-EVh" firstAttribute="top" secondItem="dM1-xj-Mgs" secondAttribute="top" constant="8" id="IaD-co-Zty"/>
                                     <constraint firstItem="TJQ-d8-mUz" firstAttribute="width" secondItem="5b4-4W-EVh" secondAttribute="width" id="RdV-Ao-L0o"/>
                                     <constraint firstItem="TJQ-d8-mUz" firstAttribute="height" secondItem="5b4-4W-EVh" secondAttribute="height" id="TBP-gh-KvZ"/>
                                     <constraint firstItem="TJQ-d8-mUz" firstAttribute="leading" secondItem="5b4-4W-EVh" secondAttribute="trailing" constant="15" id="UAE-9O-R1R"/>
-                                    <constraint firstItem="HFc-AE-YCs" firstAttribute="top" secondItem="5b4-4W-EVh" secondAttribute="bottom" constant="15" id="Usv-5j-Su6"/>
-                                    <constraint firstAttribute="height" constant="143" id="hb0-Ve-nGY"/>
+                                    <constraint firstAttribute="height" constant="68" id="hb0-Ve-nGY"/>
                                     <constraint firstItem="TJQ-d8-mUz" firstAttribute="top" secondItem="5b4-4W-EVh" secondAttribute="top" id="lWy-Bm-Arz"/>
-                                    <constraint firstItem="HFc-AE-YCs" firstAttribute="leading" secondItem="dM1-xj-Mgs" secondAttribute="leading" constant="29" id="qti-Zg-pEO"/>
                                 </constraints>
                             </view>
                         </subviews>

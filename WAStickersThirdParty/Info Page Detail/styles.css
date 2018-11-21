@@ -2,282 +2,274 @@
 
 /* Boiler plate CSS */
 
+body{
+    background-color: #FFFFFF;
+}
+
 .sk-ab {
 	position: relative;
 	overflow: hidden;
 }
 
 .sk-asset {
-	position: absolute;
-	background-repeat: no-repeat;
+/*    position: absolute;*/
+/*    background-repeat: no-repeat;*/
+
 }
 
 /* Specific to Info Page Detail */
 .sk-ab.sk-Info-Page-Detail {
 	background-color: #FFFFFF;
     width: 375px;
-	height: 1208px;
+    margin:auto;
 }
 
-.sk-asset.sk-Untitled-1-01 {
-	width: 227px;
-	height: 227px;
-	left: 73px;
-	top: 413px;
-	background-image: url("images/Untitled-1-01.png");
+.images{
+    position: relative;
+    margin: 0 auto;
 }
 
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Untitled-1-01 {
-		background-image: url("images/Untitled-1-01@2x.png");
-		background-size: 200px 222px;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Untitled-1-01 {
-		background-image: url("images/Untitled-1-01@3x.png");
-		background-size: 200px 222px;
-	}
-}
-.sk-asset.sk-Capsubeans-are-the-m {
-	width: 304px;
-	height: 63px;
-	left: 26px;
-	top: 200px;
-    font-family: "Helvetica";
-    font-size: 12pt;
+.projectImg{
+    margin-top:5px;
 }
 
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Capsubeans-are-the-m {
-		font-size: 10pt;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Capsubeans-are-the-m {
-		
-	}
-}
-.sk-asset.sk-They-release-a-pink {
-	width: 322px;
-	height: 42px;
-	left: 26px;
-	top: 362px;
+p{
+    margin-top:20px;
+    line-height: 138%;
     font-family: "Helvetica";
     font-size: 10pt;
+    text-align: left;
 }
+
+.sk-asset.sk-Logo-01 {
+    
+    .logo1{
+        display:block;
+    }
+    .logo2{
+        display:none;
+    }
+    .logo3{
+        display:none;
+    }
+    
+}
+
+
+.sk-asset.sk-ProfilePic {
+    margin: 23px auto 0;
+    .profile1{
+        display:block;
+    }
+    .profile2{
+        display:none;
+    }
+    .profile3{
+        display:none;
+    }
+}
+
+.sk-asset.sk-JackBalloon {
+
+    margin: 23px auto 0;
+
+    .jack_balloon1 {
+        display:block;
+    }
+    .jack_balloon2 {
+        display:none;
+    }
+    .jack_balloon3 {
+        display:none;
+    }
+}
+
+.sk-asset.sk-Thann {
+    margin: 0 auto;
+    .thann1{
+        display:block;
+    }
+    .thann2{
+        display:none;
+    }
+    .thann3{
+        display:none;
+    }
+}
+
+.sk-asset.sk-Toys {
+    .toys1{
+        display:block;
+    }
+    .toys2{
+        display:none;
+    }
+    .toys3{
+        display:none;
+    }
+}
+
+.sk-asset.sk-Mt {
+    .mt1{
+        display:block;
+    }
+    .mt2{
+        display:none;
+    }
+    .mt3{
+        display:none;
+    }
+}
+
+
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-They-release-a-pink {
-        font-size: 10pt;
-	}
+    
+    .jack_balloon1 {
+        display:none;
+    }
+    .jack_balloon2 {
+        display:block;
+    }
+    .jack_balloon3 {
+        display:none;
+    }
+    
+    .logo1{
+        display:none;
+    }
+    .logo2{
+        display:block;
+    }
+    .logo3{
+        display:none;
+    }
+    .profile1{
+        display:none;
+    }
+    .profile2{
+        display:block;
+    }
+    .profile3{
+        display:none;
+    }
+    .thann1{
+        display:none;
+    }
+    .thann2{
+        display:block;
+    }
+    .thann3{
+        display:none;
+    }
+    .mt1{
+        display:none;
+    }
+    .mt2{
+        display:block;
+    }
+    .mt3{
+        display:none;
+    }
+    .toys1{
+        display:none;
+    }
+    .toys2{
+        display:block;
+    }
+    .toys3{
+        display:none;
+    }
+    
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
 only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-They-release-a-pink {
-        font-size: 10pt;
-	}
+    
+    .jack_balloon1 {
+        display:none;
+    }
+    .jack_balloon2 {
+        display:none;
+    }
+    .jack_balloon3 {
+        display:block;
+    }
+    .logo1{
+        display:none;
+    }
+    .logo2{
+        display:none;
+    }
+    .logo3{
+        display:block;
+    }
+    .profile1{
+        display:none;
+    }
+    .profile2{
+        display:none;
+    }
+    .profile3{
+        display:block;
+    }
+    .thann1{
+        display:none;
+    }
+    .thann2{
+        display:none;
+    }
+    .thann3{
+        display:block;
+    }
+    .mt1{
+        display:none;
+    }
+    .mt2{
+        display:none;
+    }
+    .mt3{
+        display:block;
+    }
+    .toys1{
+        display:none;
+    }
+    .toys2{
+        display:none;
+    }
+    .toys3{
+        display:block;
+    }
 }
-.sk-asset.sk-When-in-doubt-Chill {
-	width: 228px;
-	height: 60px;
-	left: 24px;
-	top: 289px;
+
+.sk-asset.sk-Quote {
     font-family: "Helvetica";
     font-weight: 700;
-    font-size: 28pt;
+    font-size: 20pt;
     text-align: center;
     margin: auto;
 }
 
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-When-in-doubt-Chill {
-		
-	}
+.sk-asset.sk-Author {
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 7pt;
+    text-align: center;
+    margin: auto;
+    color: grey;
 }
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-When-in-doubt-Chill {
-		
-	}
-}
+
 .sk-asset.sk-Projects {
-	width: 124px;
-	height: 30px;
-	left: 26px;
-	top: 663px;
     font-family: "Helvetica";
     font-weight:700;
-    font-size: 30pt;
+    font-size: 20pt;
+    margin-top: 18px;
+    margin-bottom:10px;
 }
 
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Projects {
-		font-size: 28pt;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Projects {
-		font-size: 15pt;
-	}
-}
-.sk-asset.sk-Logo-01 {
-	width: 250px;
-	height: 65px;
-	left: 1px;
-	top: 18px;
-	background-image: url("images/Logo-01.png");
-}
 
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Logo-01 {
-		background-image: url("images/Logo-01@2x.png");
-		background-size: 206px 43px;
-        background-position: center;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Logo-01 {
-		background-image: url("images/Logo-01@3x.png");
-		background-size: 206px 43px;
-        background-position: center;
-	}
-}
-.sk-asset.sk-ProfilePic_all-01 {
-	width: 349px;
-	height: 80px;
-	left: 10px;
-	top: 96px;
-	background-image: url("images/ProfilePic_all-01.png");
-}
 
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-ProfilePic_all-01 {
-		background-image: url("images/ProfilePic_all-01@2x.png");
-		background-size: 349px 80px;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-ProfilePic_all-01 {
-		background-image: url("images/ProfilePic_all-01@3x.png");
-		background-size: 349px 80px;
-	}
-}
-.sk-asset.sk-Capsubeans_MaskingTape_01_all {
-	width: 316px;
-	height: 116px;
-	left: 27px;
-	top: 1058px;
-	background-image: url("images/Capsubeans_MaskingTape_01_all.png");
-}
-
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Capsubeans_MaskingTape_01_all {
-		background-image: url("images/Capsubeans_MaskingTape_01_all@2x.png");
-		background-size: 316px 116px;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Capsubeans_MaskingTape_01_all {
-		background-image: url("images/Capsubeans_MaskingTape_01_all@3x.png");
-		background-size: 316px 116px;
-	}
-}
-.sk-asset.sk-AllToys_Cover_noText {
-	width: 316px;
-	height: 182px;
-	left: 27px;
-	top: 869px;
-	background-image: url("images/AllToys_Cover_noText.png");
-}
-
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-AllToys_Cover_noText {
-		background-image: url("images/AllToys_Cover_noText@2x.png");
-		background-size: 316px 182px;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-AllToys_Cover_noText {
-		background-image: url("images/AllToys_Cover_noText@3x.png");
-		background-size: 316px 182px;
-	}
-}
-.sk-asset.sk-Group {
-	width: 316px;
-	height: 155px;
-	left: 27px;
-	top: 708px;
-	background-image: url("images/Group.png");
-}
-
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Group {
-		background-image: url("images/Group@2x.png");
-		background-size: 316px 155px;
-	}
-}
-@media only screen and (min--moz-device-pixel-ratio: 3),
-only screen and (-o-min-device-pixel-ratio: 3/1),
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Group {
-		background-image: url("images/Group@3x.png");
-		background-size: 316px 155px;
-	}
-}
